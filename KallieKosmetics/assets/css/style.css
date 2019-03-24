@@ -1,0 +1,134 @@
+#bodyTag {
+    background-image:
+        repeating-linear-gradient(90deg,
+        /* #ab12e3 10%,
+        #eb57cd 10%,
+        #eb57cd 20%,
+        #a854e8 20%,
+        #a854e8 30%,
+        #ba08f0 30%,
+        #ba08f0 40%,
+        #eb07d8 40%,
+        #eb07d8 50%,
+        #ab12e3 50%,
+        #ab12e3 60%,
+        #eb57cd 60%,
+        #eb57cd 70%,
+        #a854e8 70%,
+        #a854e8 80%,
+        #ba08f0 80%,
+        #ba08f0 90%,
+        #eb07d8 90%,
+        #eb07d8 100%); */
+        rebeccapurple 10%,
+        darkorchid 20%,
+        slateblue 20%,
+        indigo 30%,
+        purple 30%,
+        indigo 40%,
+        darkslateblue 50%);
+padding: 70px;
+
+}
+#mainTag{
+    background-image:
+    repeating-linear-gradient(45deg,
+    /* salmon 30%,
+    pink 40%,
+    crimson 50% */
+    rebeccapurple 10%,
+    darkorchid 20%,
+    slateblue 20%,
+    indigo 30%,
+    purple 30%,
+    indigo 40%,
+    darkslateblue 50%);
+
+    
+}
+
+#navBar{
+    padding:1px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    align-content: center;
+}
+
+#mainButton {
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.image #kallieTransparent {
+    display: block;
+    width: 10%;
+    margin-left: 200px;
+    margin-right: auto;
+    border-radius: 100%;
+    text-shadow: 2px 2px black;
+    box-shadow:
+
+        inset 0 0 5px fuchsia,
+        /* inner white */
+        inset 1px 0 8px #f0f,
+        /* inner left magenta short */
+        inset -1px 0 8px white,
+        /* inner right cyan short */
+        inset 1px 0 30px #f0f,
+        /* inner left magenta broad */
+        inset -1px 0 30px purple,
+        /* inner right cyan broad */
+        0 0 50px #aaa,
+        /* outer white */
+        -1px 0 8px #f0f,
+        /* outer left magenta */
+        1px 0 8px white;
+    /* outer right cyan */
+}
+
+.card mb-3{
+    align-content: center;
+}
+
+footer{
+    text-align: center;background-color: black; color: white;
+}
+h2{
+    text-align:center;background-color: black;color:pink;font-family: Arial, Helvetica, sans-serif; letter-spacing: 1em;
+}
+
+.jumbotron-fluid{
+    background-image: url("../images/kallieLogo.GIF"); background-size: contain; width: 100%;padding: 10px; margin: 1px;
+}
+
+form{
+    border-style: solid; border:black 2px; 
+}
+.navbar-collapse{
+    margin-left:50px;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+
+.navbar-collapse ul li {
+    padding:20px;
+}
+.card-body{
+    background-color:black; color:pink;
+}
+#item2 {
+    
+}
+
+#item1 {
+    
+}
+
+#item3 {
+    
+}

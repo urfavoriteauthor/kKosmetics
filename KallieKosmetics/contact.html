@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+    <title>Document</title>
+    <style>
+      #kallieTransparent{
+  margin-left:23%;
+  }
+
+  #submitForm {
+      margin-left:28%;
+  }
+    </style>
+</head>
+
+<body id="mainTag">
+
+    <div class="container">
+
+        <nav id="navBar" class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html"> <img src="assets/images/kallieLogo.png" width="120" height="120" color="white"
+                alt="">Menu</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="mainPage.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="shopPage.html">Shop Lippies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact us</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+        <!-- Just an image -->
+
+    </div>
+    <div class="container" style="width:100%">
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+            <h1 class="display-4"></h1>
+            <p class="lead"></p>
+          </div>
+        </div>
+      </div>
+    <!-- Form -->
+    <br>
+    <h2><img class="animated flip" src="assets/images/kallieLogoGray.png" style="width:70px">Non-Toxic & Cruelty Free<img class="animated flip"src="assets/images/kallieLogoGray.png" style="width:70px"></h2>
+    <br>
+    <div class="container" id="submitForm" style="width:50%">
+        <div class="card mb-3" class="animated shake" style="max-width: 540px;" style="margin-right:auto;">
+            <div class="row no-gutters">
+                <div class="col-md-9">
+                    
+                </div>
+                <!-- <img class="animated tada" src="assets/images/kallieLogo.png" class="card-img" alt="..."> -->
+                <div class="col-md-12">
+                    <div class="card-body">
+                        <h5 class="card-title">Contact us!</h5>
+                        <div class="container">
+                            <form>
+                                <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                        <label for="inputEmail4">Name</label>
+                                        <input type="name" class="form-control item" maxlength="25" minlength="2" id="inputName"
+                                            pattern="^[a-zA-Z0-9_.-]*$" placeholder="John Doe">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="inputPassword4">Email</label>
+                                        <input class="form-control item" type="email" class="form-control" id="inputEmail4"
+                                            placeholder="name@me.com">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputAddress">Address</label>
+                                    <input class="form-control item" type="text" minlength="6" maxlength="30" pattern="^[a-zA-Z0-9_.-]*$ "
+                                        class="form-control" id="inputAddress" placeholder="1234 Main St">
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputAddress2">Address 2</label>
+                                    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                        <label for="inputCity">City</label>
+                                        <input type="text" class="form-control item" id="inputCity" minlength="3"
+                                            maxlength="30" pattern="^[a-zA-Z0-9_.-]*$">
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        <label for="inputState">State</label>
+                                        <select id="inputState" class="form-control item" maxlength="2" pattern="^[a-zA-Z0-9_.-]*$">
+                                            <option selected>Choose...</option>
+                                            <option>...</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-md-2">
+                                        <label for="inputZip">Zip</label>
+                                        <input type="text" class="form-control" id="inputZip" maxlength="5" pattern="^  [0-9]*$">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+
+                                </div>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <img class="animated tada delay-1s" id="kallieTransparent" src="assets/images/kallieLogo.png" style="width:700px"></div>
+
+    <!-- form end -->
+    <footer><strong><u>*About Kallie Kosmetics/Shipping & Delivery/All Sales Final, No exchanges or refunds</u></strong></footer>
+</body>
+
+</html>
