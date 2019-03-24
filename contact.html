@@ -11,46 +11,108 @@
         crossorigin="anonymous">
     <title>Document</title>
     <style>
+        html,body
+{
+width:100%;
+height: 100%;
+margin:0px;
+padding:0px;
+overflow-x:hidden;
+}
       #kallieTransparent{
   margin-left:23%;
   }
 
   #submitForm {
-      margin-left:28%;
+      margin-left:0%;
   }
+  @media only screen and (max-width: 600px) {
+    /* body {
+      width: 100%;
+    } */
+
+    #kallieTransparent {
+      width:50%;
+      margin-right: 30%;
+      display: none;
+    
+    }
+
+    image {
+      width: 100%;
+    }
+
+    .navbar-collapse {
+      font-size: 40px;
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: bold;
+      text-align: center;
+      margin-right:auto;
+      padding: 10%;
+    }
+    #submitForm{
+        width: 600px;
+        margin-right:25%;
+    }
+    .card-body{
+        width: 100%;
+        margin-right:25%;
+    }
+    .col-md-12{
+        width:100%;
+        
+    }
+    .card-body{
+        width:100%;
+        float: left;
+        margin-right:25%;
+    
+        
+    }
+    form{
+        width: 100%;
+        float: left;
+        margin-right:25%;
+    }
+    .nav-link{
+      float:left;
+    }
+  }
+  </style>
     </style>
 </head>
 
 <body id="mainTag">
 
-    <div class="container">
-
-        <nav id="navBar" class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="index.html"> <img src="assets/images/kallieLogo.png" width="120" height="120" color="white"
-                alt="">Menu</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="mainPage.html">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
+        <div class="wrapper">
+                <nav id="navBar" class="navbar navbar-expand-lg navbar-dark bg-dark">
+                  <a class="navbar-brand" href="index.html"> <img src="assets/images/kallieLogo.png" width="120" height="120" color="white"
+                      alt="">Menu</a>
+                  <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"> -->
+                    <!-- <span class="navbar-toggler-icon"></span>
+                  </button> -->
+                  <div class="navbar-collapse">
+                    <ul class="navbar-nav">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="mainPage.html">Home</span></a>
+                      </li>
+                      <li class="nav-item">
                         <a class="nav-link" href="shopPage.html">Shop Lippies</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact us/FAQ</a>
+                      </li>
+            
+                    </ul>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact us</a>
-                    </li>
-
-                </ul>
-            </div>
-        </nav>
-        <!-- Just an image -->
-
-    </div>
-    <div class="container" style="width:100%">
+                    </ul>
+                  </div>
+                </nav>
+                <!-- Just an image -->
+            
+              </div>
+    <div class="wrapper" style="width:100%">
         <div class="jumbotron jumbotron-fluid">
           <div class="container">
             <h1 class="display-4"></h1>
@@ -62,7 +124,7 @@
     <br>
     <h2><img class="animated flip" src="assets/images/kallieLogoGray.png" style="width:70px">Non-Toxic & Cruelty Free<img class="animated flip"src="assets/images/kallieLogoGray.png" style="width:70px"></h2>
     <br>
-    <div class="container" id="submitForm" style="width:50%">
+    <div class="container" id="submitForm">
         <div class="card mb-3" class="animated shake" style="max-width: 540px;" style="margin-right:auto;">
             <div class="row no-gutters">
                 <div class="col-md-9">
@@ -103,10 +165,8 @@
                                     </div>
                                     <div class="form-group col-md-4">
                                         <label for="inputState">State</label>
-                                        <select id="inputState" class="form-control item" maxlength="2" pattern="^[a-zA-Z0-9_.-]*$">
-                                            <option selected>Choose...</option>
-                                            <option>...</option>
-                                        </select>
+                                        <input type="text" class="form-control item" id="inputState" maxlength="2" pattern="^[a-zA-Z0-9_.-]*$">
+                                           
                                     </div>
                                     <div class="form-group col-md-2">
                                         <label for="inputZip">Zip</label>
